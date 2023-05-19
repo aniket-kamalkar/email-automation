@@ -201,7 +201,7 @@
         </scg:List>
       </ui:MultipleAssign.AssignOperations>
     </ui:MultipleAssign>
-    <ui:GetPassword DisplayName="Get Password" sap:VirtualizedContainerService.HintSize="423,25" sap2010:WorkflowViewState.IdRef="GetPassword_1" ProtectedPassword="AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA5eILTjWtNkO/mp5aTcz+ygAAAAACAAAAAAAQZgAAAAEAACAAAAD/GOpoCETjPOGflPwGfDkNc9iDYVHhgIulrMzkVpZJhgAAAAAOgAAAAAIAACAAAADVdpCFDzoDPLIT4jz5AJ6jfo0vxNrtxBCdTvhuf4whcRAAAABfRNQRseZP9/TNZae6x/WYQAAAAEGTixJD347bSflZK59mfVIUrxjEqhL/WP0zM5HqrYjE+u0BeWr5s8XfN1QGgaXCpIxi4JLtc0kQE3ARcODP4pY=" Result="[Password]" />
+    <ui:GetPassword DisplayName="Get Password" sap:VirtualizedContainerService.HintSize="423,25" sap2010:WorkflowViewState.IdRef="GetPassword_1" ProtectedPassword="AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA5eILTjWtNkO/mp5aTcz+ygAAAAACAAAAAAAQZgAAAAEAACAAAAATnqAHHgPdFAK1P6tp5yoJ7tsJGe+px9SQIr6pBGdeMQAAAAAOgAAAAAIAACAAAABQOY6IQUMKnguS7kz5ikd78rSHrnfQfXPu5uuae6hqqCAAAABR/cpWtywhgFcKdKH0+3ojczz3kW6QvZAha+cDSP7ZcUAAAACknCwIX3kUo7XcV0+nBajkvg05VkGNDV0gZ6XrzefwlX4eV5LUYAiXH2fyGmqJ25ltfhaBm4UYyklP9p+gLeGE" Result="[Password]" />
     <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" From="{x:Null}" MailMessage="{x:Null}" Name="{x:Null}" ReplyTo="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" UseOAuth="{x:Null}" Body="[EmailBody]" DisplayName="Send SMTP Mail Message" Email="[SenderEmail]" EnableSSL="True" sap:VirtualizedContainerService.HintSize="423,152" sap2010:WorkflowViewState.IdRef="SendMail_1" IgnoreCRL="False" IsBodyHtml="False" Password="[Password]" Port="[port]" SecureConnection="Auto" Server="[Server]" Subject="[EmailSubject]" To="[RecieverEmailId]">
       <ui:SendMail.Files>
         <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
